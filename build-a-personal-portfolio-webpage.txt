@@ -1,0 +1,132 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <a href="#welcome-section">Welcome</a>
+        <a href="#projects">Projects</a>
+        <!-- Add more navigation links as needed -->
+    </nav>
+
+    <section id="welcome-section">
+        <h1>Welcome to My Portfolio</h1>
+        <!-- Add more content to the welcome section as needed -->
+    </section>
+
+    <section id="projects">
+        <div class="project-tile">
+            <h2>Project 1</h2>
+            <p>Description of project 1</p>
+            <a href="#">Link to Project 1</a>
+        </div>
+        <!-- Add more project tiles as needed -->
+    </section>
+
+    <a id="profile-link" href="https://github.com/yourusername" target="_blank">View My GitHub Profile</a>
+
+    <!-- Add more sections and content as needed -->
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+/* Common styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Welcome section styles */
+#welcome-section {
+    height: 100vh; /* Set height to viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#welcome-section h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+/* Projects section styles */
+#projects {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.project-tile {
+    background-color: #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.project-tile h2 {
+    font-size: 2rem;
+}
+
+.project-tile p {
+    font-size: 1.2rem;
+}
+
+.project-tile a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.project-tile a:hover {
+    color: #555;
+}
+
+/* Navbar styles */
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+#navbar a:hover {
+    background-color: #555;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar a {
+        padding: 10px 0;
+        display: block;
+    }
+}
+
+
+** end of undefined **
+

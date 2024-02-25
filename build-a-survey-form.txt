@@ -1,0 +1,134 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out the survey below:</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+        <label for="number" id="number-label">Age:</label>
+        <input type="number" id="number" name="age" placeholder="Enter your age" min="18" max="100" required>
+        
+        <select id="dropdown" name="dropdown">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+        </select>
+        
+        <fieldset>
+            <legend>Choose one:</legend>
+            <label><input type="radio" name="choice" value="option1"> Option 1</label>
+            <label><input type="radio" name="choice" value="option2"> Option 2</label>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Choose many:</legend>
+            <label><input type="checkbox" name="checkbox1" value="option1"> Option 1</label>
+            <label><input type="checkbox" name="checkbox2" value="option2"> Option 2</label>
+        </fieldset>
+        
+        <textarea name="comments" id="comments" placeholder="Enter your comments"></textarea>
+        
+        <button type="submit" id="submit">Submit</button>
+    </form>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#description {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#survey-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    appearance: none;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+#submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#submit:hover {
+    background-color: #45a049;
+}
+
+#submit:active {
+    background-color: #3e8e41;
+}
+
+
+** end of undefined **
+

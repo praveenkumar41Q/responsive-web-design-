@@ -1,0 +1,122 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Table of Contents</header>
+        <a class="nav-link" href="#HTML_and_CSS">HTML and CSS</a>
+        <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+        <a class="nav-link" href="#Python_and_Ruby">Python and Ruby</a>
+        <a class="nav-link" href="#C_and_C++">C and C++</a>
+        <a class="nav-link" href="#PHP_and_SQL">PHP and SQL</a>
+    </nav>
+    
+    <main id="main-doc">
+        <section id="HTML_and_CSS" class="main-section">
+            <header>HTML and CSS</header>
+            <p>HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) are core technologies used for building websites.</p>
+            <p>HTML provides the structure of the web page, while CSS is used for styling and layout.</p>
+            <code>&lt;html&gt;</code>
+            <code>&lt;head&gt;</code>
+            <code>&lt;title&gt;</code>
+            <code>&lt;body&gt;</code>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+            </ul>
+            <p>HTML and CSS work together to create beautiful and responsive web pages.</p>
+            <p>CSS can be applied inline, internally, or externally to HTML documents.</p>
+        </section>
+        
+        <section id="JavaScript_and_Java" class="main-section">
+            <header>JavaScript and Java</header>
+            <p>Despite their similar names, JavaScript and Java are completely different languages.</p>
+            <p>JavaScript is primarily used for web development, while Java is a general-purpose programming language.</p>
+            <code>console.log("Hello, world!");</code>
+            <code>document.getElementById('demo').innerHTML = 'Hello, world!';</code>
+            <ul>
+                <li>JavaScript</li>
+                <li>Java</li>
+            </ul>
+            <p>JavaScript is often used for client-side scripting to create interactive web pages.</p>
+            <p>Java is widely used in enterprise environments for building large-scale applications.</p>
+        </section>
+        
+        <section id="Python_and_Ruby" class="main-section">
+            <header>Python and Ruby</header>
+            <p>Python and Ruby are high-level programming languages known for their simplicity and readability.</p>
+            <code>print("Hello, world!")</code>
+            <code>puts "Hello, world!"</code>
+            <ul>
+                <li>Python</li>
+                <li>Ruby</li>
+            </ul>
+            <p>Python is often used for web development, scientific computing, and artificial intelligence.</p>
+            <p>Ruby is popular for web development and is known for its elegant syntax.</p>
+        </section>
+        
+        <section id="C_and_C++" class="main-section">
+            <header>C and C++</header>
+            <p>C and C++ are widely used programming languages known for their efficiency and performance.</p>
+            <code>printf("Hello, world!");</code>
+            <code>cout &lt;&lt; "Hello, world!";</code>
+            <ul>
+                <li>C</li>
+                <li>C++</li>
+            </ul>
+            <p>C is often used for system programming and embedded systems.</p>
+            <p>C++ extends C and is commonly used for game development and system software.</p>
+        </section>
+        
+        <section id="PHP_and_SQL" class="main-section">
+            <header>PHP and SQL</header>
+            <p>PHP is a server-side scripting language used for web development, while SQL is used for managing databases.</p>
+            <code>&lt;?php echo "Hello, world!"; ?&gt;</code>
+            <code>SELECT * FROM table_name;</code>
+            <ul>
+                <li>PHP</li>
+                <li>SQL</li>
+            </ul>
+            <p>PHP is embedded in HTML and is often used for creating dynamic web pages.</p>
+            <p>SQL is used to query, insert, update, and delete data in databases.</p>
+        </section>
+    </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+@media (max-width: 600px) {
+    /* Example media query styles */
+    #navbar {
+        width: 100%;
+        height: auto;
+        position: static;
+        text-align: center;
+    }
+    #main-doc {
+        margin-left: 0;
+        padding-top: 100px; /* Adjust for navbar height */
+    }
+    .main-section header {
+        font-size: 20px;
+    }
+    .nav-link {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+
+
+** end of undefined **
+
